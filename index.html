@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biasa Dzikir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Biasa Dzikir</h1>
+
+        <!-- Dropdown Kategori Dzikir -->
+        <select id="categorySelect">
+            <option value="tasbih">Tasbih (Subhallah)</option>
+            <option value="tahmid">Tahmid (Alhamdulilah)</option>
+            <option value="takbir">Takbir (Allahu Akbar)</option>
+            <option value="tahlil">Tahlil (Laa ilaaha illallah)</option>
+        </select>
+
+        <!-- Gambar Dzikir -->
+        <img id="dzikirImage" src="images/tasbih.png" alt="Dzikir Image" style="width: 100px; margin-top: 20px;">
+
+        <!-- Tampilan Angka Dzikir -->
+        <div id="display">0</div>
+
+        <!-- Tombol Back, Count, Reset -->
+        <div class="buttons">
+            <button id="backButton">Back</button>
+            <button id="countButton">Count</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+        <!-- Kontrol Suara -->
+        <div class="sound-control">
+            <button id="soundToggleButton">Sound ON</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
